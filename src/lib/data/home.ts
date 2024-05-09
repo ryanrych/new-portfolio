@@ -3,39 +3,31 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Ryan';
 
-export const lastName = 'LastName';
+export const lastName = 'Rychlak';
+
+
+// I'm a computer science and applied mathematics student at Stony Brook University. I have
+// experience in full stack mobile/web development, IPaaS programming, and algorithms research.
+// I made this site to showcase a collection of my top projects. Enjoy!
+
+
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	`Computer Science and Applied Mathematics graduate of Stony Brook University. Former software development intern 
+	at RJ Reliance and Next Gen HQ, where I worked in IPaaS programming and full stack mobile/web development.`;
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/ryanrych' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
-	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		link: 'https://www.linkedin.com/in/ryan-rychlak/'
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'mailto:ryanjrychlak@gmail.com'
 	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
-	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('js', 'py', 'ts', 'Java', 'cpp', 'mongo', 'MySQL', 'Firebase', 'Heroku', 'Boomi');

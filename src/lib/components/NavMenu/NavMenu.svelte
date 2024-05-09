@@ -26,7 +26,7 @@
 			href={`${base}/`}
 			class="nav-menu-left decoration-none w-auto md:w-150px lg:w-auto row flex flex-row items-center cursor-pointer px-4 text-[var(--secondary-text)] self-stretch hover:bg-[color:var(--main-hover)]"
 		>
-			<UIcon icon="i-carbon-code" classes="text-2em" />
+			
 			<span
 				class="ml-2 text-md font-bold hidden md:inline overflow-hidden whitespace-nowrap text-ellipsis"
 				>{HOME.name} {HOME.lastName}
@@ -48,22 +48,7 @@
 			class="row h-full justify-center items-stretch m-l-auto md:m-l-0 w-auto md:w-150px gap-1 text-1.15em"
 		>
 			<div class="row hidden md:flex">
-				<a
-					href={`${base}/search`}
-					class="text-inherit col-center self-stretch px-2 hover:bg-[color:var(--main-hover)]"
-				>
-					<UIcon icon="i-carbon-search" />
-				</a>
-				<button
-					class="bg-transparent text-1em border-none cursor-pointer hover:bg-[color:var(--main-hover)] text-[var(--secondary-text)] px-2"
-					on:click={() => toggleTheme()}
-				>
-					{#if $theme}
-						<UIcon icon="i-carbon-moon" />
-					{:else}
-						<UIcon icon="i-carbon-sun" />
-					{/if}
-				</button>
+				
 			</div>
 			<div class="col-center md:hidden h-full hover:bg-[var(--main-hover)] cursor-pointer">
 				<!-- svelte-ignore a11y-no-static-element-interactions -->

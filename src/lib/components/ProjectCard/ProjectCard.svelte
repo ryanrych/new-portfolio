@@ -14,14 +14,12 @@
 	export let project: Project;
 	$: months = countMonths(project.period.from, project.period.to);
 	// $: period = `${months} month${months > 1 ? 's' : ''}`;
-	$: period = `${getTimeDiff(
-		project.period.from,
-		project.period.to ?? new Date(Date.now() + 1000 * 60 * 60 * 24)
-	)}`;
 	$: from = `${getMonthName(project.period.from.getMonth())} ${project.period.from.getFullYear()}`;
 	$: to = project.period.to
 		? `${getMonthName(project.period.to.getMonth())} ${project.period.to.getFullYear()}`
 		: 'now';
+
+	$: period = project.period.to;
 </script>
 
 <Card color={project.color} href={`${base}/projects/${project.slug}`}>
@@ -39,7 +37,6 @@
 		class="row m-b-15px justify-between text-[var(--secondary-text)] text-0.9em font-italic font-300"
 	>
 		<p>{project.type}</p>
-		<p>{period}</p>
 	</div>
 	<div class="col sm:h-100px md:h-160px">
 		<p
@@ -47,12 +44,6 @@
 		>
 			{project.shortDescription}
 		</p>
-	</div>
-	<div class="row justify-between text-0.8em font-400">
-		<Chip>{from}</Chip>
-		{#if from !== to}
-			<Chip>{to}</Chip>
-		{/if}
 	</div>
 	<CardDivider />
 	<div class="row flex-wrap">

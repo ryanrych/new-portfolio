@@ -32,7 +32,7 @@
 
 <Card
 	margin="0px 0px 20px 0px"
-	tiltDegree={2}
+	tiltDegree={0}
 	href={`${base}/experience/${experience.slug}`}
 	color={experience.color}
 >

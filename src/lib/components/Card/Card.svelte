@@ -48,8 +48,7 @@
 		const mX = ev.clientX - cX;
 		const mY = ev.clientY - cY;
 
-		const rY = ((tiltDegree * mX) / (width / 2)).toFixed(2);
-		const rX = ((-1 * (tiltDegree * mY)) / (height / 2)).toFixed(2);
+		
 
 		el.style.setProperty('--rot-x', `${rX}deg`);
 		el.style.setProperty('--rot-y', `${rY}deg`);

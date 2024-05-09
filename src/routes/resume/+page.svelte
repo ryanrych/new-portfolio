@@ -8,9 +8,8 @@
 <CommonPage {title}>
 	<div class="resume">
 		{#if data}
-			<a href={data} download>
-				<Chip size={'1.25em'}>Download</Chip>
-			</a>
+		<embed src="../../src/RyanRychlak.pdf" width="1179" height="1125" 
+		type="application/pdf">
 		{:else}
 			<Chip>Ooops! no CV at the moment.</Chip>
 		{/if}

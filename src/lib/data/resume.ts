@@ -1,3 +1,3 @@
-export const data = '';
+export const data = "C:\\Users\\ryanj\\OneDrive\\Desktop\\RyanRychlak.pdf";
 
-export const title = 'Resumé';
+export const title = 'Resume';

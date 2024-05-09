@@ -3,28 +3,28 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'Bachelor\'s degree of Computer Science',
 		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		location: 'Stony Brook, New York',
+		logo: Assets.SBU,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Stony Brook University',
+		period: { from: new Date(2020, 8, 1), to: new Date(2023, 12, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: ['OOP', 'Full Stack Development', 'Algorithms', 'Data Structures', 'Computational Geometry', 'Low-Level Programming', 'Networks']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Bachelor\'s degree of Applied Mathematics and Statics',
 		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		location: 'Stony Brook, New York',
+		logo: Assets.SBU,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'Stony Brook University',
+		period: { from: new Date(2023, 2, 1), to: new Date(2023, 12, 1)},
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		subjects: ['Abstract Algebra', 'Logic', 'Calculus', 'Linear Algebra', 'Graph Theory', 'Statistics', 'Combinatorics', 'Game Theory']
 	}
 ];
 
