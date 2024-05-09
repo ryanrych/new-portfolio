@@ -7,8 +7,12 @@
 
 <CommonPage {title}>
 	<div class="resume">
+		{#if data}
 		<embed src="../../src/RyanRychlak.pdf" width="1179" height="1125" 
 		type="application/pdf">
+		{:else}
+			<Chip>Ooops! no CV at the moment.</Chip>
+		{/if}
 	</div>
 </CommonPage>
 
