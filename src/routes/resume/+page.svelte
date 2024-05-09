@@ -3,15 +3,17 @@
 
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import CommonPage from '$lib/components/CommonPage.svelte';
+
+	import { base } from '$app/paths';
 </script>
 
 <CommonPage {title}>
 	<div class="resume">
 		{#if data}
-		<embed src="../../src/RyanRychlak.pdf" width="1179" height="1125" 
+		<embed src="${base}/static/RyanRychlak.pdf" width="1179" height="1125" 
 		type="application/pdf">
 		{:else}
-			<Chip>Ooops! no CV at the moment.</Chip>
+			<Chip>Oops! no CV at the moment.</Chip>
 		{/if}
 	</div>
 </CommonPage>
