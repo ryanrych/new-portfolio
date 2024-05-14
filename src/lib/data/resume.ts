@@ -1,3 +1,3 @@
-export const data = "this is a test";
+export const data = "";
 
 export const title = 'Resume';
