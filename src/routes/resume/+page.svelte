@@ -10,7 +10,7 @@
 <CommonPage {title}>
 	<div class="resume">
 		{#if data}
-		<embed src="{base}/static/RyanRychlak.pdf" width="1179" height="1125" 
+		<embed src="https://drive.google.com/file/d/1gRJf6UT-wX-wOtMIA-YSdXWnLDGJzP1f/preview" width="1179" height="1125" 
 		type="application/pdf">
 		{:else}
 			<Chip>Oops! no CV at the moment.</Chip>
