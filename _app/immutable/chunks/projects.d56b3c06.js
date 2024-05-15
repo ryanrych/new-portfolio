@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.41a42c43.js";import{g as t}from"./skills.4d216f40.js";const s=[{slug:"fairways",color:"white",description:`When I decided to create a golf course mobile app, I quickly found out that golf course APIs can be incredibly 
+import{A as e}from"./UIcon.b27aabb7.js";import{g as t}from"./skills.f74288eb.js";const s=[{slug:"fairways",color:"white",description:`When I decided to create a golf course mobile app, I quickly found out that golf course APIs can be incredibly 
 			expensive. This lead to me decide to create my own database and later add an API and Python library for others to 
 			access. I found the data I needed on a crowd-sourced golf course data website, so I wrote a Python program that 
 			used Selenium to scrape the data of each course and organize it into a MySQL database. I also have the program set 

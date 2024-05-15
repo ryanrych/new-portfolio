@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.41a42c43.js";import{g as o}from"./skills.4d216f40.js";import{C as t}from"./types.1ebf2f37.js";const i=[{slug:"rjreliance",company:"RJ Reliance",description:`• Utilized Files.com and Salesforce APIs in Python to download files of UKG training hours, rate employees on hours
+import{A as e}from"./UIcon.b27aabb7.js";import{g as o}from"./skills.f74288eb.js";import{C as t}from"./types.1ebf2f37.js";const i=[{slug:"rjreliance",company:"RJ Reliance",description:`• Utilized Files.com and Salesforce APIs in Python to download files of UKG training hours, rate employees on hours
 		spent, and upload the results to their contact on Salesforce for the CEO to see. Deployed on Heroku for weekly runs
 		
 • Extracted and manipulated employee forecasted hours from Salesforce using Python and SOQL
