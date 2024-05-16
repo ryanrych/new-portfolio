@@ -9,7 +9,7 @@ export const items: Array<Education> = [
 		logo: Assets.SBU,
 		name: '',
 		organization: 'Stony Brook University',
-		period: { from: new Date(2020, 8, 1), to: new Date(2023, 12, 1) },
+		period: { from: new Date(2020, 8, 1), to: new Date(2024, 12, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
 		subjects: ['OOP', 'Full Stack Development', 'Algorithms', 'Data Structures', 'Computational Geometry', 'Low-Level Programming', 'Networks']
@@ -21,7 +21,7 @@ export const items: Array<Education> = [
 		logo: Assets.SBU,
 		name: '',
 		organization: 'Stony Brook University',
-		period: { from: new Date(2023, 2, 1), to: new Date(2023, 12, 1)},
+		period: { from: new Date(2020, 8, 1), to: new Date(2024, 12, 1)},
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
 		subjects: ['Abstract Algebra', 'Logic', 'Calculus', 'Linear Algebra', 'Graph Theory', 'Statistics', 'Combinatorics', 'Game Theory']
