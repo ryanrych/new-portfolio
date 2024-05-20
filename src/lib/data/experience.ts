@@ -24,7 +24,12 @@ export const items: Array<Experience> = [
 	{
 		slug: 'nextgenhq',
 		company: 'Next Gen HQ',
-		description: 'Creating awesome applications for customers.',
+		description: `• Developed an administrator dashboard in React with Typescript which allowed admin accounts to view and control what
+		their users can access. Deployed with Expo
+		\n• Created a basic social media using Typescript, React Native, and Google Firebase that allowed users to create an
+		account and post to a main feed
+		\n• Organized icons for the company app and put them all into a Storybook to make searching through them easier for the
+		designers`,
 		contract: ContractType.Internship,
 		type: 'Software Development',
 		location: 'New York, NY',
@@ -39,7 +44,10 @@ export const items: Array<Experience> = [
 	{
 		slug: 'icc',
 		company: 'International Cardiology Consultants',
-		description: 'Creating awesome applications for customers.',
+		description: `• Developed an application in Javascript using React Native that partner doctors use to assess patients’ risk of heart
+		disease and recommend which of the ICC’s programs to use. Deployed to Android and IOS stores using Expo
+		\n• Created a desktop application with Python and the Kivy module to allow over 150 partner hospitals to fill out and send
+		patient forms to the CEO`,
 		contract: ContractType.Contract,
 		type: 'Software Development',
 		location: 'Columbia, SC (remote)',
@@ -54,7 +62,13 @@ export const items: Array<Experience> = [
 	{
 		slug: 'primex',
 		company: 'Primex',
-		description: 'Creating awesome applications for customers.',
+		description: `• Created an application in Python with the Kivy module that helps the sales team choose the correct package to sell to
+		sites based on various criteria
+		\n• Developed a product catalog application using JavaFX that allows easy searching based on product category, name, or
+		sku number
+		\n• Wrote automated test cases for company mobile apps using Java and Appium
+		\n• Made an Amazon web scraper using Beautiful Soup in Python to report products being sold for less than their ASP
+		\n• Wrote SQL queries to find and label returned products in the company’s database`,
 		contract: ContractType.Internship,
 		type: 'Software Development',
 		location: 'Lake Geneva, WI',
