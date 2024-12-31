@@ -19,7 +19,7 @@ export const items: Array<Project> = [
 			`,
 		shortDescription:
 			'An API I created using Fast API to my personal golf course database.',
-		links: [{ to: 'https://fairways-api-ryanrychlak.koyeb.app/docs', label: 'API' }],
+		links: [],
 		logo: Assets.Fairways,
 		name: 'Fairways API',
 		period: {
@@ -72,7 +72,7 @@ export const items: Array<Project> = [
 			`,
 		shortDescription:
 			'A website to view sports bets and track earnings.',
-		links: [{ to: 'https://www.caudainvestments.com', label: 'Website' }],
+		links: [],
 		logo: Assets.cauda,
 		name: 'Cauda  Investments',
 		period: {
