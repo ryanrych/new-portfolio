@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.a7d3f8cb.js";import{g as t}from"./skills.ce00cec7.js";const s=[{slug:"fairways",color:"white",description:`When I decided to create a golf course mobile app, I quickly found out that golf course APIs can be incredibly 
+import{A as e}from"./UIcon.272cd065.js";import{g as t}from"./skills.80b749ab.js";const s=[{slug:"fairways",color:"white",description:`When I decided to create a golf course mobile app, I quickly found out that golf course APIs can be incredibly 
 			expensive. This lead to me decide to create my own database and later add an API and Python library for others to 
 			access. I found the data I needed on a crowd-sourced golf course data website, so I wrote a Python program that 
 			used Selenium to scrape the data of each course and organize it into a MySQL database. I also have the program set 
@@ -7,7 +7,7 @@ import{A as e}from"./UIcon.a7d3f8cb.js";import{g as t}from"./skills.ce00cec7.js"
 			4 endpoints that developers can use to get data on courses, individual holes, and individual tee boxes. Then I used 
 			the API to create a more user-friendly Python library to access the data without making HTTP requests. Finally, I 
 			created a webpage in React to advertise the data and sell access.
-			`,shortDescription:"An API I created using Fast API to my personal golf course database.",links:[{to:"https://fairways-api-ryanrychlak.koyeb.app/docs",label:"API"}],logo:e.Fairways,name:"Fairways API",period:{from:new Date},skills:t("py","MySQL","js","fastapi","selenium","koyeb"),type:"API"},{slug:"fairwayfinder",color:"white",description:`Currently a work in progress. I'm developing a golf GPS and stat keeping mobile app in JS and React Native that will utilize my own 
+			`,shortDescription:"An API I created using Fast API to my personal golf course database.",links:[],logo:e.Fairways,name:"Fairways API",period:{from:new Date},skills:t("py","MySQL","js","fastapi","selenium","koyeb"),type:"API"},{slug:"fairwayfinder",color:"white",description:`Currently a work in progress. I'm developing a golf GPS and stat keeping mobile app in JS and React Native that will utilize my own 
 			database for course information. What will separate my app from the plethora of golf apps out there are 2 key features. 
 			First, my app will take a mechanic directly from my favorite video game, The Golf Club 2. The mechanic is that before 
 			starting your round, you can look at past rounds played on the same course by yourself or others. You can then pick one 
@@ -26,4 +26,4 @@ import{A as e}from"./UIcon.a7d3f8cb.js";import{g as t}from"./skills.ce00cec7.js"
 			other accounts that post bets via Telegram. As the number of people who wanted the texts grew, I decided to create a website 
 			where users could login to see the bets as well as show the earnings of the past bets. We grew the service to 15 users and have 
 			seen a 60% ROI over the past 2 months.
-			`,shortDescription:"A website to view sports bets and track earnings.",links:[{to:"https://www.caudainvestments.com",label:"Website"}],logo:e.cauda,name:"Cauda  Investments",period:{from:new Date},skills:t("py","MySQL","js","ensta","Heroku"),type:"Website",screenshots:[]}],r="Projects";export{s as i,r as t};
+			`,shortDescription:"A website to view sports bets and track earnings.",links:[],logo:e.cauda,name:"Cauda  Investments",period:{from:new Date},skills:t("py","MySQL","js","ensta","Heroku"),type:"Website",screenshots:[]}],r="Projects";export{s as i,r as t};
